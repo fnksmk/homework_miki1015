@@ -1,0 +1,89 @@
+.top{
+    display: flex;
+
+}
+.cat{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    margin-top: 30px; 
+    margin-left: 80px;
+    margin-bottom: 30px;
+    
+}
+.name{
+    align-items: center ;
+    font-size: 70px;
+    padding-left: 150px;
+
+    
+}
+.mozi{
+    font-size: 40px;
+   
+}
+.icon{
+    
+    display: flex;
+    width: 100%;
+    background: white;
+    justify-content: space-between;
+}
+.icon p{
+    
+    font-size: 30px;
+    margin: auto;
+}
+.b1 {
+    background:none;
+    outline: none;
+}
+.b2{
+    background:none;
+    outline: none;
+}
+.b3{
+    background:none;
+    outline: none;
+
+}
+.fa-phone-square{
+    
+    color: rgb(181, 243, 243);
+}
+.fa-envelope{
+    color: rgb(190, 241, 139);
+}
+.fa-instagram{
+    color: rgb(219, 126, 219);
+}
+.im{
+    display: flex;
+}
+.bike{
+    width: 300px;
+    height: 300px;
+}
+
+.matuge{
+    width: 300px;
+    height: 300px;
+
+}
+.pasuta{
+    width: 300px;
+    height: 300px;
+}
+.sea{
+    width: 300px;
+    height: 300px;
+}
+.box1{
+    padding: 40px 40px;
+    margin: 10px;
+    color: turquoise;
+    background-color: white;
+    border-top: solid ;
+    border-bottom: solid;
+    left: 5px;
+}
