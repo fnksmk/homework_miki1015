@@ -6,9 +6,11 @@
     width: 350px;
     height: 350px;
     display: flex;
-    margin-top: 30px; 
+    margin: 20,20,20,20;
+
+    /* margin-top: 30px; 
     margin-left: 80px;
-    margin-bottom: 30px;
+    margin-bottom: 30px; */
     
 }
 .name{
@@ -79,6 +81,7 @@
     height: 300px;
 }
 .box1{
+    width: 100%;
     padding: 40px 40px;
     margin: 10px;
     color: turquoise;
@@ -86,4 +89,25 @@
     border-top: solid ;
     border-bottom: solid;
     left: 5px;
+}
+@media screen and (max-width:780px){
+    .cat1{
+        height: 150px;
+        margin: 10,10,50,10;
+       
+    }
+    .name{
+        font-size: 40px;
+        padding-left: 50px;
+    }
+    .top{
+        margin: auto;
+        height: 200px;
+    }
+    .icon{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+}
+    
 }
