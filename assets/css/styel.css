@@ -3,10 +3,12 @@
 
 }
 .cat{
+    margin-top: 10px;
     width: 350px;
     height: 350px;
     display: flex;
-    margin: 20,20,20,20;
+    /* margin: 20,20,20,20; */
+    
 
     /* margin-top: 30px; 
     margin-left: 80px;
@@ -82,8 +84,8 @@
 }
 .box1{
     width: 100%;
-    padding: 40px 40px;
-    margin: 10px;
+    /* padding: 40px 40px; */
+    /* margin: 10px; */
     color: turquoise;
     background-color: white;
     border-top: solid ;
@@ -93,14 +95,15 @@
 @media screen and (max-width:780px){
     .cat1{
         display: flex;
-        width: 100%;
+        width: 150px;
         height: 150px;
         margin: 10,10,50,10;
        
     }
     .name{
-        font-size: 35px;
-        padding-left: 45px;
+        font-size: 20px;
+        padding-top: 50px;
+        padding-left: 40px;
     }
     .top{
         margin: auto;
@@ -112,13 +115,16 @@
     
     .b2{
         position: relative;
-        left: 75px;
+        left: 90px;
      }
-        .icon{
-            width: 100%;
-            justify-content: space-between;
-            position: absolute;
-        }
+    .b3{
+        position: relative;
+        left: 50px;
+
+
+    }
+        
+    
 
     .icon p{
 
@@ -130,31 +136,60 @@
     } 
    
     .mozi{
-        margin-top: 120px;
-        padding: 15px;
-        font-size: 30px;
+        
+        font-size: 20px;
     }
     .im{
-        height: 400px;
+        height: 300px;
         /* overflow: hidden; */
         position: relative;
     }
 
-    .im img{
+    .im img:nth-of-type(1){
         z-index: 10;
-        opacity: 1;
+        opacity: 0;
         width: 100%;
-        height: 400px;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        height: 300px;
         position: absolute;
         left: 0;
         top: 0;
-        -webkit-animation: anime 36s 0s infinite;
-        animation: anime 36s 0s infinite ;
-        
+        animation: anime 10s 15s 1 forwards; 
     }
+
+    .im img:nth-of-type(2){
+        z-index: 9;
+        opacity: 0;
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        animation: anime 10s 10s 1 forwards; 
+    }
+
+    .im img:nth-of-type(3){
+        z-index: 8;
+        opacity: 0;
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        animation: anime 10s 5s 1 forwards; 
+    }
+
+    .im img:nth-of-type(4){
+        z-index: 7;
+        opacity: 1;
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        animation: anime 10s 1 forwards; 
+    }
+
+
     @keyframes anime{
         0%{
             opacity: 0;
@@ -168,6 +203,5 @@
         100%{
             opacity: 0;
         }
-
     }
 }
